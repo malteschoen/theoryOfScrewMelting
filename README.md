@@ -1,9 +1,18 @@
 # theoryOfScrewMelting
 
-## What is this?
+## Melting capacities at different screw diameters for different (fixed!) melting lengths and different melting fluxes
 
-## Melting capacities at different screw diameters for different (fixed!) melting lengths and different melting fluxes.
+### Table 1: Melting fluxes as determined in the screw simulator
+
+| Material | Melting flux   [kg/(m²*s)] | Examples 
+| ----------- | ----------- | ----------- |
+| poorly melting | 0.15 | ABS, HIPS, high-viscosity PC |
+| average | 0.3 | LLDPE |
+| nicely melting | 0.45 | LDPE, low-viscosity PC | 
+
 Melting fluxes are taken from Altınkaynak's dissertation [1]
+
+### 
 
 Screw throughputs are assumed to follow this formula (with throughput in kg/h and diameter in centimetres!), valid for 100 rpm.
 ```math
@@ -17,7 +26,7 @@ A_{melt}=0.5 \left [ \pi\cdot D  \right ]\left (L \cdot D   \right )
 
 ### Table 2: 10 diameters of extruder lenght specified for melting 
 
-| Diameter   [mm] | Melting Surface   [cm²] | Typical machine throughput   [kg/h] | Melting capacity, poorly melting material   [kg/h] | Melting capacity, average material   [kg/h] | Melting capacity, nicely melting material   [kg/h] |
+| Screw diameter   [mm] | Melting Surface   [cm²] | Typical machine throughput   [kg/h] | Melting capacity, poorly melting material   [kg/h] | Melting capacity, average material   [kg/h] | Melting capacity, nicely melting material   [kg/h] |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | 19 | 60 | 3 | :green_circle:3 | :green_circle:6 | :green_circle:9 |
 | 30 | 140 | 12 | :yellow_circle: 7.5 | :green_circle:15 | :green_circle:22.5 |
@@ -26,9 +35,9 @@ A_{melt}=0.5 \left [ \pi\cdot D  \right ]\left (L \cdot D   \right )
 | 90 | 1270 | 250 | :red_circle: 70 | :red_circle:140 | :red_circle:210 |
 | 120 | 2260 | 550 | :red_circle: 125 | :red_circle:250 | :red_circle:375 |
 
-### Table 3: 20 diameters of extruder lenght specified for melting (of which on average 50 % will be in contact with the solids bed)
+### Table 3: 20 diameters of extruder lenght specified for melting 
 
-| Diameter   [mm] | Melting Surface   [cm²] | Typical machine throughput   [kg/h] | Melting capacity, poorly melting material   [kg/h] | Melting capacity, average material   [kg/h] | Melting capacity, nicely melting material   [kg/h] |
+| Screw diameter   [mm] | Melting Surface   [cm²] | Typical machine throughput   [kg/h] | Melting capacity, poorly melting material   [kg/h] | Melting capacity, average material   [kg/h] | Melting capacity, nicely melting material   [kg/h] |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | 19 | 120 | 3 | :green_circle:6 | :green_circle:12 |:green_circle:18 |
 | 30 | 280 | 12 | :green_circle:15 | :green_circle:30 |:green_circle:45 |
