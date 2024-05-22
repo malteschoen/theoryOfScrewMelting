@@ -29,8 +29,8 @@ A_{melt}=0.5 \left [ \pi\cdot D  \right ]\left (L \cdot D   \right )
 | Screw diameter   [mm] | Melting Surface   [cm²] | Typical machine throughput   [kg/h] | Melting capacity, poorly melting material   [kg/h] | Melting capacity, average material   [kg/h] | Melting capacity, nicely melting material   [kg/h] |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | 19 | 60 | 3 | :green_circle:3 | :green_circle:6 | :green_circle:9 |
-| 30 | 140 | 12 | :yellow_circle: 7.5 | :green_circle:15 | :green_circle:22.5 |
-| 45 | 320 | 40 | :red_circle: 17 | :yellow_circle:34 | :green_circle:51 |
+| 30 | 140 | 12 | :red_circle: 7.5 | :green_circle:15 | :green_circle:22.5 |
+| 45 | 320 | 40 | :red_circle: 17 | :red_circle:34 | :green_circle:51 |
 | 60 | 560 | 85 | :red_circle: 30 | :red_circle:60 | :yellow_circle:90 |
 | 90 | 1270 | 250 | :red_circle: 70 | :red_circle:140 | :red_circle:210 |
 | 120 | 2260 | 550 | :red_circle: 125 | :red_circle:250 | :red_circle:375 |
