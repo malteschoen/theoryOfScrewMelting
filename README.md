@@ -4,11 +4,11 @@
 
 ### Table 1: Melting fluxes as determined in the screw simulator
 
-| Material | Melting flux   [kg/(m²*s)] | Examples 
+| Material | Melting flux   [kg/(m²*s)] | Melting flux   [(kg/h)/cm²)] |  Examples 
 | ----------- | ----------- | ----------- |
-| poorly melting | 0.15 | ABS, HIPS, high-viscosity PC |
-| average | 0.3 | LLDPE |
-| nicely melting | 0.45 | LDPE, low-viscosity PC | 
+| poorly melting | 0.15 |  0.05 | ABS, HIPS, high-viscosity PC |
+| average | 0.3  | 0.01 | LLDPE |
+| nicely melting |  0.45 | 0.16 | LDPE, low-viscosity PC | 
 
 Melting fluxes are taken from Altınkaynak's dissertation [1]
 
