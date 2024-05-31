@@ -41,8 +41,8 @@ A_{melt}=0.5 \left [ \pi\cdot D  \right ]\left (L \cdot D   \right )
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | 19 | 120 | 3 | :green_circle:6 | :green_circle:12 |:green_circle:18 |
 | 30 | 280 | 12 | :green_circle:15 | :green_circle:30 |:green_circle:45 |
-| 45 | 630 | 40 | :yellow_circle:34 | :green_circle:68 |:green_circle:102 |
-| 60 | 1020 | 85 | :yellow_circle:60 | :green_circle:120 |:green_circle:180 |
+| 45 | 630 | 40 | :red_circle:34 | :green_circle:68 |:green_circle:102 |
+| 60 | 1020 | 85 | :red_circle:60 | :green_circle:120 |:green_circle:180 |
 | 90 | 2540 | 250 | :red_circle:140 | :yellow_circle:280 |:green_circle:380 |
 | 120 | 4520 | 550 | :red_circle:250 | :yellow_circle:500 |:green_circle:750 |
 
