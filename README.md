@@ -7,8 +7,8 @@
 | Material | Melting flux   [kg/(m²*s)] | Melting flux   [(kg/h)/cm²)] |  Examples 
 | ----------- | ----------- | ----------- |----------- |
 | poorly melting | 0.15 |  0.05 | ABS, HIPS, high-viscosity PC |
-| average | 0.3  | 0.01 | LLDPE |
-| nicely melting |  0.45 | 0.16 | LDPE, low-viscosity PC | 
+| average | 0.3  | 0.10 | LLDPE |
+| nicely melting |  0.45 | 0.15 | LDPE, low-viscosity PC | 
 
 Melting fluxes are taken from Altınkaynak's dissertation [1]
 
@@ -43,7 +43,7 @@ A_{melt}=0.5 \left [ \pi\cdot D  \right ]\left (L \cdot D   \right )
 | 30 | 280 | 12 | :green_circle:15 | :green_circle:30 |:green_circle:45 |
 | 45 | 630 | 40 | :red_circle:34 | :green_circle:68 |:green_circle:102 |
 | 60 | 1020 | 85 | :red_circle:60 | :green_circle:120 |:green_circle:180 |
-| 90 | 2540 | 250 | :red_circle:140 | :yellow_circle:280 |:green_circle:380 |
+| 90 | 2540 | 250 | :red_circle:140 | :yellow_circle:280 |:green_circle:420 |
 | 120 | 4520 | 550 | :red_circle:250 | :yellow_circle:500 |:green_circle:750 |
 
 ## Literature
